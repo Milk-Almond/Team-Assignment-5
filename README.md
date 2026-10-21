@@ -1,27 +1,25 @@
 # Team Lab 5 Promethean Classification
 
-**Current candidate: 0.1.2-team. Corrections implemented; live acceptance remains pending.**
+**Current version: 0.1.3-team. Five observed regression cases pass strict structure and the documented behavioral review.**
 
-The last completed baseline run (0.1.1-team) passed strict schema in 1/5 cases and exposed an abstention failure. The revised five-case run was submitted, but result retrieval became unavailable before replies could be captured. This repository does not claim those cases passed.
+The supported working classification for the fixed LLM dossier is **Provisional Breakthrough**, with moderate qualitative confidence under the course instrument. Potential Promethean remains a conditional long-range hypothesis. General significance cannot authorize adoption.
 
-- [Revision and rationale](agents/team_promethean/records/revision_0_1_2.md)
-- [Revised-run submission and recovery record](records/observed_tests/retest_0_1_2/README.md)
-- [Completed baseline results](records/observed_tests/live_20261020/README.md)
-- [Current Agent Record](TEAM_AGENT_RECORD.md) and [decision history](TEAM_DECISION_LOG.md)
-- [Submission narrative](deliverables/Team%20Lab%205%20Milk%20Almonds%20For%20Upload.docx), read with [current status](deliverables/STATUS_RECONCILIATION.md)
+- [Final observed tests, raw replies and verification](records/observed_tests/retest_0_1_3/README.md)
+- [Separate semantic review and limitations](records/observed_tests/retest_0_1_3/semantic_review.md)
+- [Completed 0.1.2 results and preserved context-drift failure](records/observed_tests/retest_0_1_2_completed/README.md)
+- [Earlier unavailable submissions](records/observed_tests/retest_0_1_2/README.md) and [0.1.1 baseline failures](records/observed_tests/live_20261020/README.md)
+- [Revision rationale](agents/team_promethean/records/revision_0_1_3.md)
+- [Team Agent Record](TEAM_AGENT_RECORD.md), [inventory](TEAM_AGENT_INVENTORY.md), [decision history](TEAM_DECISION_LOG.md)
+- [Current report-out](deliverables/FINAL_REPORT_OUT.md) and [submission reconciliation](deliverables/STATUS_RECONCILIATION.md)
 
-## Run and validate
-
-No API key is needed for the course workflow. From the repository root:
+## Reproduce recorded checks
 
 ```bash
 python tools/check_frozen_core.py
-python tools/build_prompt.py --agent agents/team_promethean --case agents/team_promethean/cases/primary.json
+python records/observed_tests/retest_0_1_3/verify.py
 python agents/team_promethean/validate_strict_response.py path/to/original_response.txt
 ```
 
-Use a fresh conversation for each case and preserve the original response before validation. The strict validator checks every assertion used in the supplied frozen output schema; it does not certify facts or reasoning. The unchanged basic course validator omits extra-field rejection and must not be the sole acceptance check.
+The five exact current packets are in `work/`; recorded copies accompany each response. Preserve a completed original reply before validation. Strict schema validation checks structure; it does not verify facts or reasoning. Frozen common instructions, schema and course scripts remain unchanged.
 
-Earlier team sign-off applies to the recorded synthesis; this user-authorized maintenance candidate does not invent new workshop attendance, individual signatures or empirical validation. Cases, frozen architecture and original failures are preserved. Candidate comparison and source lineage remain in CANDIDATE_COMPARISON.md, SOURCE_PATHS.md and records/source_repositories.json.
-
-Current integration condition: recover and verify the five revised replies, address any remaining failure, then accept the candidate for final handoff. Original chapter/canonical-ZIP verification, workshop details and Brightspace posting remain unconfirmed.
+The shared ledger is a disclosed calibration for one narrow dossier. Passing these contrast tests does not demonstrate independent classification ability, blind holdout performance, repeated-run reliability or production readiness. Source abstracts and metadata were verified, not full methods. Original chapter/canonical-package alignment and final team acceptance require human review. Existing workshop/sign-off records remain historical; no new vote, attendance, individual signature or Brightspace posting is claimed.

@@ -21,3 +21,9 @@ Five live team-agent cases are now recorded in records/observed_tests/live_20261
 ## Maintenance candidate 0.1.2-team
 
 The earlier narrative predates the targeted corrections. Current instructions correct formatting, sufficiency-first abstention and context separation. Five revised model requests were submitted; original responses remain unavailable. The candidate has not passed acceptance. Read records/observed_tests/retest_0_1_2 before presenting a current completion claim. No Brightspace posting is confirmed.
+
+## Current handoff — 0.1.3-team
+
+Supersedes the earlier pending-retrieval status for current verification. Five completed outputs, exact prompts, original/replacement attempt metadata, strict validation log and semantic review are preserved in records/observed_tests/retest_0_1_3/. The completed 0.1.2 run and its remaining context-drift failure are also preserved.
+
+Use FINAL_REPORT_OUT.md and the current Agent Record with any older submission document. Do not present the older document as describing the current test history. Technical regression verification is complete for the five specified cases, with the disclosed common-dossier calibration and reliability limits. The original classroom chapter and final team acceptance still require human review; workshop details and Brightspace posting remain unconfirmed.

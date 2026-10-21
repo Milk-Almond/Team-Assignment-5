@@ -1,0 +1,7 @@
+{
+  "case": "hype",
+  "submitted_at": "2026-10-21T04:28:56.899Z",
+  "source_commit": "6c5b6ad6ade6973b1af9aee84d3f35c521db1836",
+  "method": "replace composer and Enter",
+  "state": "{\"conversationId\":\"6ad83f8a-1cb4-83ea-a2fe-f145bc2b5289\",\"phase\":\"conversation\",\"authenticated\":false,\"temporaryChat\":false,\"sidebarOpen\":true,\"navigationPending\":false,\"draft\":{\"text\":\"\",\"revision\":3},\"composer\":{\"action\":\"send\",\"steering\":{\"available\":false,\"pending\":false},\"canSubmit\":false,\"disabled\":false,\"gated\":false,\"offline\":false,\"pendingSubmit\":false,\"uploading\":false},\"model\":{\"thinkingModel\":\"\",\"thinkingEffort\":\"\",\"thinkingHint\":\"\"},\"attachments\":[],\"messageCount\":2,\"messages\":[{\"id\":\"486b6d8c-6fa9-4f54-ab51-f81756836044\",\"key\":\"[\\\"486b6d8c-6fa9-4f54-ab51-f81756836044\\\",\\\"user\\\"]\",\"role\":\"user\",\"streaming\":false,\"complete\":true},{\"id\":\"4ba79b62-ceac-4e49-962b-41a88619162a\",\"key\":\"[\\\"486b6d8c-6fa9-4f54-ab51-f81756836044\\\",\\\"assistant\\\"]\",\"role\":\"assistant\",\"streaming\":false,\"complete\":true}],\"operation\":{\"id\":\"f817267f-edfc-47af-b0b7-eebeccda8ec8\",\"conversationId\":\"6ad83f8a-1cb4-83ea-a2fe-f145bc2b5289\",\"presentation\":\"pending\",\"terminal\":\"settled\",\"stop\":\"idle\",\"outcome\":\"complete\"}}"
+}

@@ -1,0 +1,14 @@
+{
+  "case": "posture_contrast",
+  "attempt": 2,
+  "submitted_at": "2026-10-21T04:33:29.109Z",
+  "source_commit": "6c5b6ad6ade6973b1af9aee84d3f35c521db1836",
+  "reason": "Earlier attempt unreadable; separately recorded new context.",
+  "observed_at": "2026-10-21T04:34:33.194Z",
+  "url": "https://chatgpt.com/uc/6ad8409a-f0b8-83ea-a5d0-39370ae6ce99",
+  "completion_observation": {
+    "reply_actions_visible": true,
+    "stop_generation_visible": false,
+    "json_parseable": true
+  }
+}

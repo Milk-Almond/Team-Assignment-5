@@ -55,3 +55,11 @@ Source commit 5e3de7de48da315670383fabcc91c61d61bee47b contains corrections base
 Original replies could not be retrieved. No revised reply is available, so strict schema and behavioral outcomes are NOT ASSESSED. See records/observed_tests/retest_0_1_2 for prompts, observed conversation IDs, dispatch facts and execution metadata. Do not relabel unavailable outputs as either model failures or successes.
 
 The new strict validator correctly reproduces the baseline split: four extra-field failures and one schema pass. This confirms validator behavior, not effectiveness of the revised model instructions. The active candidate remains pending recovery and acceptance.
+
+## Completed 0.1.2 and 0.1.3 verification
+
+New 0.1.2 captures: five completed replies; 5/5 strict schema; correct abstention and anti-hype behavior. Full invariance fails because clinical contrast changes catalytic effect from Provisional to Not established and advances the evidence cutoff by one day. Original outputs preserved in records/observed_tests/retest_0_1_2_completed/.
+
+0.1.3 discloses the shared-dossier calibration and preserves evidence cutoff independently of execution date. Five completed replies pass strict schema, prompt identity, frozen-core integrity, assessment-anchor checks and separate semantic review. Two unavailable first attempts are retained alongside separately recorded completed replacements. See records/observed_tests/retest_0_1_3/verification_log.txt and semantic_review.md.
+
+This is one observed completed output per case, not an estimated success rate. A supplied calibration ledger narrows the test to rule execution and context consistency; no blind holdout or independent classification validation is claimed. Earlier failures were not overwritten.

@@ -1,0 +1,6 @@
+{
+  "case": "insufficient",
+  "submitted_at": "2026-10-21T04:23:03.015Z",
+  "method": "visible composer paste and Enter",
+  "state": "{\"conversationId\":\"6ad83e28-6ba8-83ea-9489-94e4f834d10c\",\"phase\":\"conversation\",\"authenticated\":false,\"temporaryChat\":false,\"sidebarOpen\":true,\"navigationPending\":false,\"draft\":{\"text\":\"\",\"revision\":3},\"composer\":{\"action\":\"send\",\"steering\":{\"available\":false,\"pending\":false},\"canSubmit\":false,\"disabled\":false,\"gated\":false,\"offline\":false,\"pendingSubmit\":false,\"uploading\":false},\"model\":{\"thinkingModel\":\"\",\"thinkingEffort\":\"\",\"thinkingHint\":\"\"},\"attachments\":[],\"messageCount\":2,\"messages\":[{\"id\":\"fb0d1ae0-7256-4917-90e9-a2ccc23d0411\",\"key\":\"[\\\"fb0d1ae0-7256-4917-90e9-a2ccc23d0411\\\",\\\"user\\\"]\",\"role\":\"user\",\"streaming\":false,\"complete\":true},{\"id\":\"858099c3-caab-4db8-9d5c-2efa336b5256\",\"key\":\"[\\\"fb0d1ae0-7256-4917-90e9-a2ccc23d0411\\\",\\\"assistant\\\"]\",\"role\":\"assistant\",\"streaming\":false,\"complete\":true}],\"operation\":{\"id\":\"5ee3533d-fd8d-46c5-83da-078f48a5de1f\",\"conversationId\":\"6ad83e28-6ba8-83ea-9489-94e4f834d10c\",\"presentation\":\"pending\",\"terminal\":\"settled\",\"stop\":\"idle\",\"outcome\":\"complete\"}}"
+}

@@ -1,0 +1,8 @@
+{
+  "case": "primary",
+  "attempt": 2,
+  "submitted_at": "2026-10-21T04:33:05.215Z",
+  "source_commit": "6c5b6ad6ade6973b1af9aee84d3f35c521db1836",
+  "reason": "Earlier attempt unreadable after frame-tree timeouts; separately recorded new context.",
+  "state": "{\"conversationId\":\"6ad84083-c13c-83ea-94be-5ece7b4a1cd3\",\"phase\":\"conversation\",\"authenticated\":false,\"temporaryChat\":false,\"sidebarOpen\":true,\"navigationPending\":false,\"draft\":{\"text\":\"\",\"revision\":3},\"composer\":{\"action\":\"send\",\"steering\":{\"available\":false,\"pending\":false},\"canSubmit\":false,\"disabled\":false,\"gated\":false,\"offline\":false,\"pendingSubmit\":false,\"uploading\":false},\"model\":{\"thinkingModel\":\"\",\"thinkingEffort\":\"\",\"thinkingHint\":\"\"},\"attachments\":[],\"messageCount\":2,\"messages\":[{\"id\":\"3c79ae81-ad33-4720-821a-3c9e8463a531\",\"key\":\"[\\\"3c79ae81-ad33-4720-821a-3c9e8463a531\\\",\\\"user\\\"]\",\"role\":\"user\",\"streaming\":false,\"complete\":true},{\"id\":\"225ac4fb-4e48-45c1-92ed-a677438d2dc2\",\"key\":\"[\\\"3c79ae81-ad33-4720-821a-3c9e8463a531\\\",\\\"assistant\\\"]\",\"role\":\"assistant\",\"streaming\":false,\"complete\":true}],\"operation\":{\"id\":\"28957b68-968a-4c0e-b344-a24983a33ef6\",\"conversationId\":\"6ad84083-c13c-83ea-94be-5ece7b4a1cd3\",\"presentation\":\"pending\",\"terminal\":\"settled\",\"stop\":\"idle\",\"outcome\":\"complete\"}}"
+}

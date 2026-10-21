@@ -1,0 +1,9 @@
+{
+  "case": "posture_contrast",
+  "submitted_at": "2026-10-21T04:27:40.874Z",
+  "source_commit": "6c5b6ad6ade6973b1af9aee84d3f35c521db1836",
+  "method": "replace composer and Enter",
+  "status": "SUBMITTED_RESULT_UNAVAILABLE",
+  "recovery_error": "Page.getFrameTree timed out",
+  "observed_conversation_id": "6ad83f3e-4ae4-83ea-b8a2-a28e2eab017f"
+}
