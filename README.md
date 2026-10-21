@@ -15,9 +15,9 @@ The supported working classification for the fixed LLM dossier is **Provisional 
 ## Reproduce recorded checks
 
 ```bash
-python tools/check_frozen_core.py
-python records/observed_tests/retest_0_1_3/verify.py
-python agents/team_promethean/validate_strict_response.py path/to/original_response.txt
+python3 tools/check_frozen_core.py
+python3 records/observed_tests/retest_0_1_3/verify.py
+python3 agents/team_promethean/validate_strict_response.py path/to/original_response.txt
 ```
 
 The five exact current packets are in `work/`; recorded copies accompany each response. Preserve a completed original reply before validation. Strict schema validation checks structure; it does not verify facts or reasoning. Frozen common instructions, schema and course scripts remain unchanged.
