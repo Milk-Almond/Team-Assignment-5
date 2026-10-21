@@ -1,29 +1,27 @@
 # Team Lab 5 Promethean Classification
 
-Team decision-support prototype. Package and active agent version: **0.1.1-team**. Team sign-off is recorded in the user-provided report uploaded at commit 98022f05624abd9e386c7d1b4a8a364641d2961f. This records approval of the synthesis, not empirical certification.
+**Current candidate: 0.1.2-team. Corrections implemented; live acceptance remains pending.**
 
-**Decision:** Provisional Breakthrough on the limited common LLM dossier; Potential Promethean remains an unresolved prospective hypothesis. Moderate confidence in bounded assistance capability; low confidence in civilization-scale transformation and unmeasured local value. Preserve the stronger prospective interpretation as dissent.
+The last completed baseline run (0.1.1-team) passed strict schema in 1/5 cases and exposed an abstention failure. The revised five-case run was submitted, but result retrieval became unavailable before replies could be captured. This repository does not claim those cases passed.
 
-## Authoritative submission materials
+- [Revision and rationale](agents/team_promethean/records/revision_0_1_2.md)
+- [Revised-run submission and recovery record](records/observed_tests/retest_0_1_2/README.md)
+- [Completed baseline results](records/observed_tests/live_20261020/README.md)
+- [Current Agent Record](TEAM_AGENT_RECORD.md) and [decision history](TEAM_DECISION_LOG.md)
+- [Submission narrative](deliverables/Team%20Lab%205%20Milk%20Almonds%20For%20Upload.docx), read with [current status](deliverables/STATUS_RECONCILIATION.md)
 
-- [Team Agent Record](TEAM_AGENT_RECORD.md) and [decision log](TEAM_DECISION_LOG.md): current status and decision.
-- [Submission report](deliverables/Team%20Lab%205%20Milk%20Almonds%20For%20Upload.docx), read with the [status reconciliation](deliverables/STATUS_RECONCILIATION.md).
-- The older `deliverables/Team_Lab_5_Agent_Record.docx` is superseded and retained for history. The newer report's proposal/pending-approval wording is reconciled by the status note; its limitations about testing and verification remain valid.
-- [Candidate comparison](CANDIDATE_COMPARISON.md), [contributions](CONTRIBUTIONS.md), and [source register](records/source_repositories.json).
-- [Observed checks and inherited raw test evidence](records/observed_tests/README.md).
+## Run and validate
 
-## Run with the course workflow
-
-No API key is needed. From the repository root:
+No API key is needed for the course workflow. From the repository root:
 
 ```bash
 python tools/check_frozen_core.py
 python tools/build_prompt.py --agent agents/team_promethean --case agents/team_promethean/cases/primary.json
-python tools/validate_response.py path/to/saved_response.json
+python agents/team_promethean/validate_strict_response.py path/to/original_response.txt
 ```
 
-Paste the generated prompt into a fresh ChatGPT conversation and save the unedited reply under a new filename. Repeat posture, application, hype and insufficient-evidence cases with the fixed general dossier. Record model/date/reviewer and inspect meaning and sources as well as JSON shape.
+Use a fresh conversation for each case and preserve the original response before validation. The strict validator checks every assertion used in the supplied frozen output schema; it does not certify facts or reasoning. The unchanged basic course validator omits extra-field rejection and must not be the sole acceptance check.
 
-The five existing team response files are historical assistant-authored worked examples for version 0.1-proposed. They are preserved unchanged. Attached quantum raw replies are inherited individual-agent runs, not runs of this team agent. Fresh-session team-agent replay remains open; see the test log.
+Earlier team sign-off applies to the recorded synthesis; this user-authorized maintenance candidate does not invent new workshop attendance, individual signatures or empirical validation. Cases, frozen architecture and original failures are preserved. Candidate comparison and source lineage remain in CANDIDATE_COMPARISON.md, SOURCE_PATHS.md and records/source_repositories.json.
 
-The frozen core/tools are unchanged. Canonical Brightspace ZIP comparison, named course/source verification, workshop timing details and Brightspace submission are not certified by this update.
+Current integration condition: recover and verify the five revised replies, address any remaining failure, then accept the candidate for final handoff. Original chapter/canonical-ZIP verification, workshop details and Brightspace posting remain unconfirmed.

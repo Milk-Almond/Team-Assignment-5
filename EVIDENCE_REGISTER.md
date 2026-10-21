@@ -14,3 +14,8 @@ Checked 2026-10-20. Source scope is deliberately narrow.
 Yulia's completed ZIP candidate is now inspected at commit 887b1109; its later team-derived lineage is explicit. Collective sign-off is reported by the user-provided Word submission report at team commit 98022f0. This sign-off is not independent scientific or source verification.
 
 Inherited individual raw quantum replies and their recorded failure/retest are copied with original text and source commit under records/observed_tests/. The source repository reports fresh conversations; this update checks saved artifacts and does not independently authenticate the conversations or repeat their current scientific-source review. New local-check outputs verify artifact structure and invariants only.
+
+
+## Actual source recheck — October 20, 2026, 22:58 ET
+
+ChatGPT/Codex opened the original arXiv v2 record and official NIST publication page/PDF introduction in this session. Limited dossier claims and citation dates were supported; scope and contrary observations are preserved in records/observed_tests/run_20261020_2258/source_verification.md. This is recorded AI verification, not a human review signature or full research replication. Test prompts and historical evidence remain fixed.

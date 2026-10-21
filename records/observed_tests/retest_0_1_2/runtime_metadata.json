@@ -1,0 +1,85 @@
+{
+  "source_commit": "5e3de7de48da315670383fabcc91c61d61bee47b",
+  "agent_version": "0.1.2-team",
+  "capture_method": "Dispatch facts and observed browser tab URLs transcribed from the tool execution transcript; no response reconstruction.",
+  "runtime": "ChatGPT web; signed out in returned dispatch state. Underlying model ID not exposed; revised-run model selection was not re-read.",
+  "cases": [
+    {
+      "case": "primary",
+      "status": "SUBMITTED_COMPLETION_UNVERIFIED",
+      "conversation_id": "6ad83276-52c0-83ea-9ceb-19fbed822930",
+      "observed_url": "https://chatgpt.com/uc/6ad83276-52c0-83ea-9ceb-19fbed822930",
+      "fresh_context_confirmed": true,
+      "prompt_byte_identity_confirmed": true,
+      "dispatch_status": "dispatched",
+      "submission_timestamp": "not recovered",
+      "raw_response_captured": false,
+      "strict_schema": "NOT_ASSESSED",
+      "behavior": "NOT_ASSESSED"
+    },
+    {
+      "case": "posture_contrast",
+      "status": "SUBMITTED_COMPLETION_UNVERIFIED",
+      "conversation_id": "6ad832d7-006c-83ea-99d9-b74aff1c71be",
+      "observed_url": "https://chatgpt.com/uc/6ad832d7-006c-83ea-99d9-b74aff1c71be",
+      "fresh_context_confirmed": true,
+      "prompt_byte_identity_confirmed": true,
+      "dispatch_status": "dispatched",
+      "submission_timestamp": "not recovered",
+      "raw_response_captured": false,
+      "strict_schema": "NOT_ASSESSED",
+      "behavior": "NOT_ASSESSED"
+    },
+    {
+      "case": "application_contrast",
+      "status": "SUBMITTED_COMPLETION_UNVERIFIED",
+      "conversation_id": "6ad832df-4728-83ea-b9b0-57d9322ef229",
+      "observed_url": "https://chatgpt.com/uc/6ad832df-4728-83ea-b9b0-57d9322ef229",
+      "fresh_context_confirmed": true,
+      "prompt_byte_identity_confirmed": true,
+      "dispatch_status": "dispatched",
+      "submission_timestamp": "not recovered",
+      "raw_response_captured": false,
+      "strict_schema": "NOT_ASSESSED",
+      "behavior": "NOT_ASSESSED"
+    },
+    {
+      "case": "hype",
+      "status": "SUBMITTED_COMPLETION_UNVERIFIED",
+      "conversation_id": "6ad832f3-666c-83ea-8f17-a9ed72817d57",
+      "observed_url": "https://chatgpt.com/uc/6ad832f3-666c-83ea-8f17-a9ed72817d57",
+      "fresh_context_confirmed": true,
+      "prompt_byte_identity_confirmed": true,
+      "dispatch_status": "dispatched",
+      "submission_timestamp": "not recovered",
+      "raw_response_captured": false,
+      "strict_schema": "NOT_ASSESSED",
+      "behavior": "NOT_ASSESSED"
+    },
+    {
+      "case": "insufficient",
+      "status": "SUBMITTED_COMPLETION_UNVERIFIED",
+      "conversation_id": "6ad832fd-453c-83ea-88b7-ce0dec3fcf12",
+      "observed_url": "https://chatgpt.com/uc/6ad832fd-453c-83ea-88b7-ce0dec3fcf12",
+      "fresh_context_confirmed": true,
+      "prompt_byte_identity_confirmed": true,
+      "dispatch_status": "dispatched",
+      "submission_timestamp": "not recovered",
+      "raw_response_captured": false,
+      "strict_schema": "NOT_ASSESSED",
+      "behavior": "NOT_ASSESSED"
+    }
+  ],
+  "recovery_errors": [
+    "Observed browser-tool errors during result recovery, in execution order:",
+    "",
+    "1. Page.getFrameTree timed out.",
+    "2. Runtime.evaluate timed out.",
+    "3. Page.getLayoutMetrics timed out.",
+    "4. Reading the current response state failed: timed out awaiting tools/call after 300 seconds.",
+    "5. Attempted local checkpoint through the browser runtime failed: timed out awaiting tools/call after 300 seconds.",
+    "6. Attempted browser JavaScript-session reset failed: timed out awaiting tools/call after 300 seconds.",
+    "",
+    "No dispatched request was resent. No inaccessible reply was reconstructed. No model verdict is inferred from these errors."
+  ]
+}

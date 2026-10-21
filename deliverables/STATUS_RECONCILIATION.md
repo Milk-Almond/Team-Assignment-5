@@ -11,3 +11,13 @@ Yulia's completed candidate was found in SubAgent_Missing_Files.zip at yanisimov
 Package/active agent version is 0.1.1-team. Changes reconcile records, source lineage, prompt metadata and test attachments; classification logic is unchanged. Historical worked responses retain 0.1-proposed.
 
 Actual test attachments comprise newly executed deterministic checks and inherited individual-agent raw replies with provenance. They do not close fresh-session team-agent replay. Original chapter alignment, named human source verification, individual approval details, workshop roles/timing, canonical ZIP comparison and Brightspace posting remain unverified. Do not delete these limitations on the strength of team sign-off alone.
+
+
+## Subsequent test status
+
+Five live team-agent cases are now recorded in records/observed_tests/live_20261020. The earlier statement that replay was missing is superseded by the completed run. Results include four strict-schema failures and an insufficient-evidence abstention failure. The prior Word report remains a historical narrative and should be read with these current test results. No successful correction/retest or new team sign-off is implied.
+
+
+## Maintenance candidate 0.1.2-team
+
+The earlier narrative predates the targeted corrections. Current instructions correct formatting, sufficiency-first abstention and context separation. Five revised model requests were submitted; original responses remain unavailable. The candidate has not passed acceptance. Read records/observed_tests/retest_0_1_2 before presenting a current completion claim. No Brightspace posting is confirmed.

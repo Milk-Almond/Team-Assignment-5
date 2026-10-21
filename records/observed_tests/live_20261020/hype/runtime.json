@@ -1,0 +1,112 @@
+{
+  "started_at": "2026-10-21T03:12:10.959Z",
+  "before": {
+    "conversationId": null,
+    "phase": "home",
+    "authenticated": false,
+    "temporaryChat": false,
+    "sidebarOpen": true,
+    "navigationPending": false,
+    "draft": {
+      "text": "",
+      "revision": 1
+    },
+    "composer": {
+      "action": "send",
+      "steering": {
+        "available": false,
+        "pending": false
+      },
+      "canSubmit": false,
+      "disabled": false,
+      "gated": false,
+      "offline": false,
+      "pendingSubmit": false,
+      "uploading": false
+    },
+    "model": {
+      "thinkingModel": "",
+      "thinkingEffort": "",
+      "thinkingHint": ""
+    },
+    "attachments": [],
+    "messageCount": 0,
+    "messages": [],
+    "operation": null
+  },
+  "dispatch": "{\"status\":\"dispatched\",\"state\":{\"conversationId\":null,\"phase\":\"home\",\"authenticated\":false,\"temporaryChat\":false,\"sidebarOpen\":true,\"navigationPending\":false,\"draft\":{\"text\":\"\",\"revision\":3},\"composer\":{\"action\":\"stop\",\"steering\":{\"available\":false,\"pending\":false},\"canSubmit\":false,\"disabled\":false,\"gated\":false,\"offline\":false,\"pendingSubmit\":false,\"uploading\":false},\"model\":{\"thinkingModel\":\"\",\"thinkingEffort\":\"\",\"thinkingHint\":\"\"},\"attachments\":[],\"messageCount\":0,\"messages\":[],\"operation\":null}}",
+  "state": {
+    "conversationId": "6ad82d8f-3d1c-83ea-9374-654787110aa5",
+    "phase": "conversation",
+    "authenticated": false,
+    "temporaryChat": false,
+    "sidebarOpen": true,
+    "navigationPending": false,
+    "draft": {
+      "text": "",
+      "revision": 3
+    },
+    "composer": {
+      "action": "send",
+      "steering": {
+        "available": false,
+        "pending": false
+      },
+      "canSubmit": false,
+      "disabled": false,
+      "gated": false,
+      "offline": false,
+      "pendingSubmit": false,
+      "uploading": false
+    },
+    "model": {
+      "thinkingModel": "",
+      "thinkingEffort": "",
+      "thinkingHint": ""
+    },
+    "attachments": [],
+    "messageCount": 2,
+    "messages": [
+      {
+        "id": "e69404dd-a62b-49bb-a3ca-514e80f6b9c8",
+        "key": "[\"e69404dd-a62b-49bb-a3ca-514e80f6b9c8\",\"user\"]",
+        "role": "user",
+        "streaming": false,
+        "complete": true
+      },
+      {
+        "id": "bb959db8-8683-4b48-b0b0-a8c5225401db",
+        "key": "[\"e69404dd-a62b-49bb-a3ca-514e80f6b9c8\",\"assistant\"]",
+        "role": "assistant",
+        "streaming": false,
+        "complete": true
+      }
+    ],
+    "operation": {
+      "id": "b8ce9774-89b0-420b-9330-7c9dc155ae44",
+      "conversationId": "6ad82d8f-3d1c-83ea-9374-654787110aa5",
+      "presentation": "pending",
+      "terminal": "settled",
+      "stop": "idle",
+      "outcome": "complete"
+    }
+  },
+  "completed_at": "2026-10-21T03:14:24.868Z",
+  "url": "https://chatgpt.com/uc/6ad82d8f-3d1c-83ea-9374-654787110aa5",
+  "model_observation": {
+    "status": "ready",
+    "mode": "chat",
+    "selected": {
+      "model": "default",
+      "effort": ""
+    },
+    "models": [
+      {
+        "model": "default",
+        "title": "Default",
+        "effort": "",
+        "effortTitle": "Default"
+      }
+    ]
+  }
+}

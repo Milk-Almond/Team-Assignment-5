@@ -1,0 +1,53 @@
+{
+  "review_type": "Recorded technical review of completed model responses; not a human sign-off",
+  "source_commit": "4e5dc3d45ff3123ec532cd14bb6217e8917f6501",
+  "agent_version": "0.1.1-team",
+  "overall": "Five live cases completed. Four strict-schema failures, one abstention failure, and context-separation concerns are preserved. No agent revision or successful retest is claimed.",
+  "cases": [
+    {
+      "case": "primary",
+      "strict_schema": "FAIL",
+      "classification": "PASS: qualified Provisional Breakthrough; higher category remains a hypothesis",
+      "local_action": "PASS: conditional human-reviewed pilot; no rollout approval",
+      "issue": "Unexpected $schema and title top-level fields."
+    },
+    {
+      "case": "posture_contrast",
+      "strict_schema": "PASS",
+      "classification": "PASS: same broad category",
+      "context_adaptation": "PARTIAL: conservative posture is acknowledged, but the recommendation remains a similar conditional pilot without a clearly distinct offline-first stage",
+      "issue": "The saved example's stronger posture distinction was not fully reproduced. Similar action can be defensible; the response does not clearly demonstrate the planned posture-sensitive adaptation."
+    },
+    {
+      "case": "application_contrast",
+      "strict_schema": "FAIL",
+      "classification": "PASS at category level",
+      "local_action": "PASS: rejects autonomous discharge sending; proposes only controlled clinician-reviewed or non-patient-facing evaluation",
+      "context_separation": "FAIL: general_et_finding changes system scope/baseline to clinical discharge communication instead of keeping the general technology scope fixed",
+      "issue": "Unexpected $schema/title plus application-specific scope contamination."
+    },
+    {
+      "case": "hype",
+      "strict_schema": "FAIL",
+      "classification": "PASS: no upgrade to Confirmed Promethean",
+      "local_action": "PASS: rejects immediate organization-wide rollout",
+      "context_separation": "PARTIAL: technology-wide reasoning includes a customer-service-specific barrier",
+      "issue": "Unexpected $schema/title. Stable label alone does not establish complete general-finding invariance."
+    },
+    {
+      "case": "insufficient",
+      "strict_schema": "FAIL",
+      "abstention": "FAIL: assigns Incremental by default to undefined technology, despite acknowledging missing evidence",
+      "local_action": "PASS: withholds deployment endorsement and requests information",
+      "issue": "The generic no-barrier default appears to override the missing-system abstention rule. This is an inferred instruction-conflict explanation, not a proved causal diagnosis."
+    }
+  ],
+  "proposed_changes_not_implemented": [
+    "Add an explicit output-key whitelist: exactly the 13 output instance fields; $schema and title describe the schema and must not be emitted.",
+    "Give missing-system/comparator/evidence abstention precedence over the no-barrier incremental default. Missing evidence is not positive evidence for Incremental.",
+    "Freeze the general technology system boundary, baseline and evidence across context cases; move clinical/customer-service specifics into application and organization fields.",
+    "Clarify the expected posture-sensitive evaluation stages while allowing justified similar actions under unchanged constraints.",
+    "Use strict-schema validation alongside the unchanged frozen basic validator before accepting runtime replies."
+  ],
+  "review_method": "Codex-assisted semantic inspection in the current session; no human reviewer signature is claimed."
+}

@@ -1,3 +1,3 @@
-0.1.1-team
-Records synchronized with reported team sign-off in the user-provided report at commit 98022f0.
-Classification logic unchanged; fresh-session team-agent replay remains open.
+0.1.2-team
+Candidate: corrections implemented; five live requests submitted, results unavailable due to browser-runtime timeout.
+Do not mark accepted or submission-ready until original revised replies are recovered and checked.

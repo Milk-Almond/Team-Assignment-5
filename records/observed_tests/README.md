@@ -25,3 +25,8 @@ Evidence status: source-reported fresh individual runs, retrieved and checked as
 Five historical team response files remain assistant-authored worked examples for 0.1-proposed. Fresh-session team replay is OPEN. No missing output is fabricated. The current tool session has no independent ChatGPT model-execution tool. Use the generated prompts in separate conversations, save raw replies without overwriting examples, and record model/date/reviewer and semantic verdict.
 
 Team approval reported in the submission report concerns the synthesis; it does not close this evidence gap.
+
+
+## 4. Completed team-agent run
+
+See live_20261020/README.md for five actual fresh-conversation results, immutable displayed replies, completion records and prompt identity checks. The earlier OPEN statement describes the pre-run state. This initial live run is complete with failures; correction and retest remain open.

@@ -1,0 +1,112 @@
+[
+  {
+    "case": "primary",
+    "prompt_identical": true,
+    "completed": true,
+    "basic_validator_exit": 0,
+    "strict_schema": "FAIL",
+    "strict_errors": [
+      "('$', 'extra field')"
+    ],
+    "unexpected_top_level_fields": [
+      "$schema",
+      "title"
+    ],
+    "raw_sha256": "d0c97e51a986a1f4d610c55ea57e2ba451398ca5ddd73a0fec8fcea64d499b21",
+    "prompt_sha256": "89c24e57b611737978a3298dce92d9c30e54b83417aa1f0741225e9eddf00ece",
+    "conversation_id": "6ad82c9d-f59c-83ea-b896-9222c940529b",
+    "observed_url": "https://chatgpt.com/uc/6ad82c9d-f59c-83ea-b896-9222c940529b",
+    "model": {
+      "model": "default",
+      "effort": ""
+    },
+    "underlying_model_id": "not exposed"
+  },
+  {
+    "case": "posture_contrast",
+    "prompt_identical": true,
+    "completed": true,
+    "basic_validator_exit": 0,
+    "strict_schema": "PASS",
+    "strict_errors": [],
+    "unexpected_top_level_fields": [],
+    "raw_sha256": "0f47d8100c1ae9efa6eeaacb625e90a00c8bd2f4c42a6e76bccc78d6d0e05c7f",
+    "prompt_sha256": "2c1768bef4540f6bec4b88e0bd0374c0580646f0903332c81fd0d53bb6dd7926",
+    "conversation_id": "6ad82cfd-1c30-83ea-a87a-d5ed796e4ae9",
+    "observed_url": "https://chatgpt.com/uc/6ad82cfd-1c30-83ea-a87a-d5ed796e4ae9",
+    "model": {
+      "model": "default",
+      "effort": ""
+    },
+    "underlying_model_id": "not exposed"
+  },
+  {
+    "case": "application_contrast",
+    "prompt_identical": true,
+    "completed": true,
+    "basic_validator_exit": 0,
+    "strict_schema": "FAIL",
+    "strict_errors": [
+      "('$', 'extra field')"
+    ],
+    "unexpected_top_level_fields": [
+      "$schema",
+      "title"
+    ],
+    "raw_sha256": "26b55d28310129f75262ef453267011888a3aee33a4491acbaecdd3f722a269b",
+    "prompt_sha256": "e06db3c8ad7b46a4dc5a371624f2907b7b02d58d02665efabdb2f083825cecaf",
+    "conversation_id": "6ad82d68-53fc-83ea-a93a-4f6b58549370",
+    "observed_url": "https://chatgpt.com/uc/6ad82d68-53fc-83ea-a93a-4f6b58549370",
+    "model": {
+      "model": "default",
+      "effort": ""
+    },
+    "underlying_model_id": "not exposed"
+  },
+  {
+    "case": "hype",
+    "prompt_identical": true,
+    "completed": true,
+    "basic_validator_exit": 0,
+    "strict_schema": "FAIL",
+    "strict_errors": [
+      "('$', 'extra field')"
+    ],
+    "unexpected_top_level_fields": [
+      "$schema",
+      "title"
+    ],
+    "raw_sha256": "0a2a95bb5e5b2056ebbea5506ddf699ab31819b477f62801b9303d33da140725",
+    "prompt_sha256": "fc526ce93636de5678a10dea00ecfcb36fec2452da2819e45040a09530a9d16c",
+    "conversation_id": "6ad82d8f-3d1c-83ea-9374-654787110aa5",
+    "observed_url": "https://chatgpt.com/uc/6ad82d8f-3d1c-83ea-9374-654787110aa5",
+    "model": {
+      "model": "default",
+      "effort": ""
+    },
+    "underlying_model_id": "not exposed"
+  },
+  {
+    "case": "insufficient",
+    "prompt_identical": true,
+    "completed": true,
+    "basic_validator_exit": 0,
+    "strict_schema": "FAIL",
+    "strict_errors": [
+      "('$', 'extra field')"
+    ],
+    "unexpected_top_level_fields": [
+      "$schema",
+      "title"
+    ],
+    "raw_sha256": "285516e509e64224e34e475cec238195f22e7afca0d9d0187e122a569f1e4744",
+    "prompt_sha256": "23bf20e9ac766e6baff93fd3b129089a18f941af069027e8421e5724e543c4dd",
+    "conversation_id": "6ad82da1-12e0-83ea-8f60-b4742c37a817",
+    "observed_url": "https://chatgpt.com/uc/6ad82da1-12e0-83ea-8f60-b4742c37a817",
+    "model": {
+      "model": "default",
+      "effort": ""
+    },
+    "underlying_model_id": "not exposed"
+  }
+]

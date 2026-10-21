@@ -1,0 +1,8 @@
+{
+  "executed_at_utc": "2026-10-21T02:58:35.516430+00:00",
+  "source_commit": "4e5dc3d45ff3123ec532cd14bb6217e8917f6501",
+  "manifest_files_checked": 61,
+  "failures": [],
+  "browser_unsent_draft_matches_primary_prompt": true,
+  "primary_prompt_sha256": "89c24e57b611737978a3298dce92d9c30e54b83417aa1f0741225e9eddf00ece"
+}

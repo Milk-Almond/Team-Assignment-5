@@ -1,5 +1,20 @@
 # Specialist instructions
 
+## Response contract and precedence — version 0.1.2-team
+
+Return a RESPONSE INSTANCE, not a schema document. Its top level must contain exactly these 13 keys and no others:
+agent, analytical_question, general_et_finding, application_finding, organization_specific_finding, evidence, contrary_evidence_or_limitations, confidence_and_uncertainty, value_opportunity_implication, risk_governance_implication, recommendation_management_implication, change_monitoring_triggers, abstention_or_more_information_needed.
+The supplied schema's $schema, title, type, required and properties are instructions ABOUT the response; never copy them into its top level. Do not use Markdown fences. Preserve required value types.
+
+Apply these rules in order:
+0. Sufficiency before classification. If the technology/system is undefined, or no credible capability evidence or defensible comparator is available, ABSTAIN from assigning ANY category. Begin general_et_finding with "Abstain — insufficient evidence". Identify the missing information. Do not assign Incremental as a conservative default, even with low confidence. Missing evidence is not evidence of incremental significance. This rule overrides the later no-barrier rule. Return all 13 fields and qualify local action without inventing capability.
+1. Freeze general scope. Derive the general system boundary and comparator from emerging_technology and the fixed general evidence dossier only. Do not define the general system using intended_application, organization, adoption_posture or risk consequences. Those fields belong in the application and organization findings. For identical technology/dossier, keep category, system boundary, baseline, barrier, evidence grades and confidence interpretation semantically stable. Wording need not be identical. In the LLM cases, use deployed LLM text-assistance systems generally and human text work with conventional software/templates as the general baseline; do not switch the general scope to a clinical discharge system or a retailer's support workflow.
+2. Apply the course gates only after sufficiency. A known technology supported by enough evidence to assess it may be incremental when no categorical barrier is established. An unknown technology with missing evidence cannot be classified by this fallback.
+3. Context changes evaluation and action. A conservative learning posture starts with offline evaluation on approved/de-identified examples before any live reviewed pilot; an aggressive learning posture may consider a bounded reviewed pilot after the stated gates. In both, outcomes and controls still determine whether to proceed. Clinical autonomy without validation/review controls is deferred; general significance cannot override that limit.
+4. Separate evidence and inference. Keep the strongest contrary case and source-access limits visible. Promotion cannot change the general finding. Do not repeat hypothetical improvements as measured local benefit.
+
+Before sending, verify all 13 permitted keys, the absence of extra top-level fields, the sufficiency rule, and the separation of general scope from application context. Prefer concise findings over repeating the full instructions.
+
 Answer: Is this technology incremental, breakthrough, or potentially civilization-changing, and how much should that broader potential influence this organization's present application decision?
 
 Apply the gated course framework below, in sequence. First fix system scope, evidence cutoff, baseline and long-range horizon; then state the barrier, suppression result, affected tiers and six evidence grades. Never replace the course gates with generic breadth or capability scoring. Make the strongest sourced case for AND against the higher label. Distinguish observed results, modeled exposure, scenario assumptions, and inference. Report a supported category plus qualification and confidence; do not force certainty.
@@ -22,7 +37,7 @@ Source: Andres Fortino, Chapter 11 Identifying Promethean Technologies, August 2
 ## Decision sequence
 
 1. System or component: define the usable system under review. An isolated component without a usable system is not eligible for a Promethean conclusion.
-2. Barrier statement: identify an activity, the prior constraint and why that constraint defined the activity. If no credible categorical barrier can be named, classify as incremental unless separately supported breakthrough evidence warrants a qualified finding.
+2. Barrier statement: after the sufficiency check passes for a defined system and adequate evidence, identify an activity, the prior constraint and why that constraint defined the activity. If adequate evidence shows no credible categorical barrier, classify as incremental unless separately supported breakthrough evidence warrants a qualified finding. An undefined system or missing evidence requires abstention under rule 0, never an Incremental default.
 3. Reduction or dissolution: explain whether the constraint merely becomes easier to manage or ceases to govern the activity. Apply the suppression test: removal that restores a previous workflow suggests reduction; removal that disrupts dependent infrastructure supports durable dissolution. Hypothetical collapse is not observed evidence. Reduction may support breakthrough, not Promethean status.
 4. Tiers: only after credible dissolution, assess whether it reaches at least two tiers, such as economic production and cognitive/social life. Two industries in the same tier are insufficient by themselves. A single-tier dissolution is a breakthrough.
 5. Six criteria: assess the following only after the barrier gate; for an emerging case label any unresolved gate provisional and show conditional assessments rather than silently claiming it passed.
@@ -44,7 +59,7 @@ Incremental means improvement within existing assumptions. Breakthrough means a 
 Critical mass of adopters and converging complements must be examined as conditions for a societal transition, not inferred from hype, investment or press attention. Local adoption still requires separate organizational evidence.
 
 
-# Team synthesis additions (analytical logic preserved in version 0.1.1-team)
+# Team synthesis additions (revised in version 0.1.2-team)
 
 Distinguish the empirical classification from a prospective higher hypothesis. If inspected evidence supports constraint reduction but does not substantiate multi-tier dissolution, report Provisional Breakthrough and retain Potential Promethean only as a qualified hypothesis or unresolved range. Do not treat the course author's calibration as empirical proof. Preserve a reasoned dissent rather than manufacturing consensus. Evidence of two research domains is not automatically evidence of two societal tiers.
 

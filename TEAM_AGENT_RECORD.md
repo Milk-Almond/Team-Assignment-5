@@ -33,3 +33,17 @@ Version 0.1.1-team reconciles records and metadata without changing the analytic
 Yulia's completed consulting candidate is now documented, with its post-synthesis methodological lineage. See CANDIDATE_COMPARISON.md.
 
 Actual execution results are in records/observed_tests/local_checks.txt. Source-reported individual ChatGPT raw replies, prompts, cases and failure/retest records are attached under records/observed_tests/inherited_quantum/. These support traceability of an inherited design lesson; they do not test the team LLM classifier. Team fresh-session replay is still required. Historical team worked responses remain unchanged at 0.1-proposed.
+
+
+## G Completed live replay
+
+Five separate fresh-conversation runs of version 0.1.1-team are preserved in records/observed_tests/live_20261020/. All prompts match the generated repository packets. Strict schema passed one case and failed four for extra fields. The insufficient-evidence case assigned an unsupported default Incremental category instead of abstaining. Broad labels stayed qualified in the other cases, while general-scope drift and weak posture adaptation remain limitations. The earlier pending-replay statements are historical; this run is complete with failures. Active instructions and team classification remain unchanged; corrections require a versioned revision and new runs.
+
+
+## H Revision candidate 0.1.2-team
+
+The user authorized targeted corrections and a new five-case run. Version 0.1.2-team adds an output-key whitelist, sufficiency-first abstention, explicit general-scope isolation, a conservative offline stage and a strict validator alongside the unchanged frozen tools. It does not change the team's empirical classification or erase the 0.1.1 failures.
+
+Source revision commit: 5e3de7de48da315670383fabcc91c61d61bee47b. All five revised requests were dispatched in fresh contexts with identical generated prompts. Result retrieval then became unavailable; original responses were not captured. Revised acceptance remains pending, not failed or passed by inference. See records/observed_tests/retest_0_1_2.
+
+The current active candidate is 0.1.2-team; prior version and readiness statements above describe earlier states. No new team vote or classroom completion is asserted.
