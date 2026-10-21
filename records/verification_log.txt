@@ -1,0 +1,36 @@
+tools/check_frozen_core.py
+FROZEN CORE INTACT
+
+tools/build_prompt.py --agent agents/team_promethean --case agents/team_promethean/cases/primary.json
+/workspace/scratch/b3f2535bb6cd/team_package/work/team_promethean_primary_prompt.txt
+
+tools/validate_response.py agents/team_promethean/responses/primary_response.json
+VALIDATION PASSED
+
+tools/build_prompt.py --agent agents/team_promethean --case agents/team_promethean/cases/posture_contrast.json
+/workspace/scratch/b3f2535bb6cd/team_package/work/team_promethean_posture_contrast_prompt.txt
+
+tools/validate_response.py agents/team_promethean/responses/posture_contrast_response.json
+VALIDATION PASSED
+
+tools/build_prompt.py --agent agents/team_promethean --case agents/team_promethean/cases/application_contrast.json
+/workspace/scratch/b3f2535bb6cd/team_package/work/team_promethean_application_contrast_prompt.txt
+
+tools/validate_response.py agents/team_promethean/responses/application_contrast_response.json
+VALIDATION PASSED
+
+tools/build_prompt.py --agent agents/team_promethean --case agents/team_promethean/cases/hype.json
+/workspace/scratch/b3f2535bb6cd/team_package/work/team_promethean_hype_prompt.txt
+
+tools/validate_response.py agents/team_promethean/responses/hype_response.json
+VALIDATION PASSED
+
+tools/build_prompt.py --agent agents/team_promethean --case agents/team_promethean/cases/insufficient.json
+/workspace/scratch/b3f2535bb6cd/team_package/work/team_promethean_insufficient_prompt.txt
+
+tools/validate_response.py agents/team_promethean/responses/insufficient_response.json
+VALIDATION PASSED
+
+Full JSON Schema validation: 5 cases and 5 worked responses passed.
+General finding equality: primary, posture, application, hype passed.
+This verifies saved examples, not independent model reliability.
