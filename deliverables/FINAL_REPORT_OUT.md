@@ -1,7 +1,5 @@
 # Team Lab 5 — Current report-out
 
-**Artifact:** SubAgent 3, Team Promethean Classification Agent, version 0.1.3-team. Source candidate: 6c5b6ad6ade6973b1af9aee84d3f35c521db1836, committed before testing.
-
 **Defensible classification:** Provisional Breakthrough for deployed LLM text-assistance systems under the fixed course-calibrated dossier. Moderate qualitative confidence in that working classification; low confidence in 10–20-year societal predictions. Potential Promethean remains a conditional hypothesis.
 
 **Criteria:** define the usable system and comparator; identify the activity-defining barrier; distinguish reduction from durable dissolution using the suppression test; require credible effects in at least two societal tiers for a higher hypothesis; assess order of magnitude, widespread impact, paradigm shift, catalytic effect, democratization and irreversibility without averaging away missing gates. Emerging cases cannot establish retrospective irreversibility by prediction. Undefined technology or absent credible evidence requires abstention, not an Incremental default.
