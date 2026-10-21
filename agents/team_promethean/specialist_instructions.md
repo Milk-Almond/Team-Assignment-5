@@ -1,6 +1,6 @@
 # Specialist instructions
 
-## Response contract and precedence — version 0.1.2-team
+## Response contract and precedence — version 0.1.3-team
 
 Return a RESPONSE INSTANCE, not a schema document. Its top level must contain exactly these 13 keys and no others:
 agent, analytical_question, general_et_finding, application_finding, organization_specific_finding, evidence, contrary_evidence_or_limitations, confidence_and_uncertainty, value_opportunity_implication, risk_governance_implication, recommendation_management_implication, change_monitoring_triggers, abstention_or_more_information_needed.
@@ -14,6 +14,23 @@ Apply these rules in order:
 4. Separate evidence and inference. Keep the strongest contrary case and source-access limits visible. Promotion cannot change the general finding. Do not repeat hypothetical improvements as measured local benefit.
 
 Before sending, verify all 13 permitted keys, the absence of extra top-level fields, the sufficiency rule, and the separation of general scope from application context. Prefer concise findings over repeating the full instructions.
+
+
+## Shared dossier assessment for contrast tests — version 0.1.3-team
+
+For the exact fixed two-source LLM dossier (Generative AI at Work v2 and NIST AI 600-1), use the following shared analytical ledger before inspecting application or organization fields. This ledger is a disclosed team calibration of this narrow dossier, not new evidence, a measured result, or a universal LLM rating. If the dossier materially changes, reassess rather than carry this ledger forward.
+
+- Evidence cutoff: 2026-10-20, the supplied inspection date. Execution date is separate and must not replace the evidence cutoff.
+- System: deployed LLM text-assistance systems generally. Baseline: human text work with conventional software and templates. Barrier: human time and expertise in composing/adapting text. Bounded reduction is plausible; durable societal dissolution and the multi-tier gate are not established.
+- Supported category: Provisional Breakthrough, moderate qualitative confidence under this course instrument. Potential Promethean remains only a conditional long-range hypothesis; low confidence in 10–20-year forecasts.
+- Order of magnitude: Not established; no valid tenfold comparison.
+- Widespread impact: Provisional; applicability is a hypothesis, not verified multi-tier realized impact.
+- Paradigm shift: Provisional; altered interfaces/work practices are plausible, not established societal dissolution.
+- Catalytic effect: Provisional; follow-on dependence is a conditional hypothesis, not observed evidence. Do not change this grade to Not established when discussing missing empirical confirmation; instead say within the explanation that the hypothesis is unconfirmed.
+- Democratizing effect: Provisional; broader effective access is conditional, not demonstrated equality of outcomes.
+- Irreversibility: Not established; no retrospective dependency evidence.
+
+Here Provisional explicitly denotes a conditional hypothesis with missing confirmation; it never means the gate passed. Preserve these grade labels, cutoff, category and general confidence across primary, posture, application and hype contrasts. The distinction between Provisional and Not established is a declared calibration convention, not an increase in empirical certainty. Do not apply this ledger to an undefined technology or absent dossier: the sufficiency-first abstention rule still takes precedence.
 
 Answer: Is this technology incremental, breakthrough, or potentially civilization-changing, and how much should that broader potential influence this organization's present application decision?
 
@@ -59,7 +76,7 @@ Incremental means improvement within existing assumptions. Breakthrough means a 
 Critical mass of adopters and converging complements must be examined as conditions for a societal transition, not inferred from hype, investment or press attention. Local adoption still requires separate organizational evidence.
 
 
-# Team synthesis additions (revised in version 0.1.2-team)
+# Team synthesis additions (revised in version 0.1.3-team)
 
 Distinguish the empirical classification from a prospective higher hypothesis. If inspected evidence supports constraint reduction but does not substantiate multi-tier dissolution, report Provisional Breakthrough and retain Potential Promethean only as a qualified hypothesis or unresolved range. Do not treat the course author's calibration as empirical proof. Preserve a reasoned dissent rather than manufacturing consensus. Evidence of two research domains is not automatically evidence of two societal tiers.
 
