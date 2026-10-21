@@ -1,0 +1,18 @@
+UTC execution: 2026-10-21T04:37:15.075987+00:00
+FROZEN CORE INTACT
+primary STRICT VALIDATION PASSED
+primary PROMPT_IDENTITY bcc2ca1022d3e1f9ec9eeb096b787cfbb90b019944da6f52dfb1fbc2446a3032
+primary ASSESSMENT_ANCHORS_PASS
+posture_contrast STRICT VALIDATION PASSED
+posture_contrast PROMPT_IDENTITY ba08866a0aaa5d2308948c853db8035e369b28aa47e0572ab7f0f0f48bad9887
+posture_contrast ASSESSMENT_ANCHORS_PASS
+application_contrast STRICT VALIDATION PASSED
+application_contrast PROMPT_IDENTITY 519bb8aa1346c22057d4e6ce121d70d7df325d23c64f4a4745aec53fa9d41fac
+application_contrast ASSESSMENT_ANCHORS_PASS
+hype STRICT VALIDATION PASSED
+hype PROMPT_IDENTITY 9ea814e713bce21eca0a5b2c45c813201aab9e4347420edf27e88514b53d9b58
+hype ASSESSMENT_ANCHORS_PASS
+insufficient STRICT VALIDATION PASSED
+insufficient PROMPT_IDENTITY 7cbe20e4d9b39cf133750f0a284976d7a2db55b58d8c1896be50d8bc940dca23
+insufficient ASSESSMENT_ANCHORS_PASS
+PASS: five observed structural/input/anchor checks. Read semantic_review.md for the separate reasoning assessment; no reliability rate is inferred.

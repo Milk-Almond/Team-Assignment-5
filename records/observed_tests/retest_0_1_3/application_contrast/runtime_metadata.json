@@ -1,0 +1,7 @@
+{
+  "case": "application_contrast",
+  "submitted_at": "2026-10-21T04:28:30.195Z",
+  "source_commit": "6c5b6ad6ade6973b1af9aee84d3f35c521db1836",
+  "method": "replace composer and Enter",
+  "state": "{\"conversationId\":\"6ad83f71-0370-83ea-bb4c-e0cdd319d198\",\"phase\":\"conversation\",\"authenticated\":false,\"temporaryChat\":false,\"sidebarOpen\":true,\"navigationPending\":false,\"draft\":{\"text\":\"\",\"revision\":3},\"composer\":{\"action\":\"send\",\"steering\":{\"available\":false,\"pending\":false},\"canSubmit\":false,\"disabled\":false,\"gated\":false,\"offline\":false,\"pendingSubmit\":false,\"uploading\":false},\"model\":{\"thinkingModel\":\"\",\"thinkingEffort\":\"\",\"thinkingHint\":\"\"},\"attachments\":[],\"messageCount\":2,\"messages\":[{\"id\":\"005dc903-16c2-4ac9-8931-53a69895ac19\",\"key\":\"[\\\"005dc903-16c2-4ac9-8931-53a69895ac19\\\",\\\"user\\\"]\",\"role\":\"user\",\"streaming\":false,\"complete\":true},{\"id\":\"463d7d41-f9bf-4790-b94c-49693f5e269a\",\"key\":\"[\\\"005dc903-16c2-4ac9-8931-53a69895ac19\\\",\\\"assistant\\\"]\",\"role\":\"assistant\",\"streaming\":false,\"complete\":true}],\"operation\":{\"id\":\"ad81b497-c97a-45ee-bf42-c18365e464ad\",\"conversationId\":\"6ad83f71-0370-83ea-bb4c-e0cdd319d198\",\"presentation\":\"pending\",\"terminal\":\"settled\",\"stop\":\"idle\",\"outcome\":\"complete\"}}"
+}

@@ -16,3 +16,9 @@ Five cases have now been executed (records/observed_tests/live_20261020). Reject
 ## Current gate for 0.1.2-team
 
 Targeted corrections are implemented. Five revised requests were dispatched, but original responses could not be recovered during result retrieval. Keep the candidate unaccepted for integration until those outputs pass strict-schema and semantic review. Do not treat a retrieval failure as an agent judgment. Existing source/chapter and human-record limitations remain open.
+
+## Current disposition after 0.1.3 verification
+
+The previously pending five-case check is now complete with captured replies and passing documented checks. The earlier context-drift failure is preserved and the calibration correction disclosed. Technical regression evidence supports a qualified classroom handoff.
+
+Open limits: the shared-dossier calibration is not independent empirical confirmation; repeated-run and unseen-technology reliability remain untested. Exact original chapter/canonical-package alignment and final team acceptance remain human review items. No local deployment approval or course-platform posting is inferred. Earlier recovery failures remain in metadata rather than being relabeled as model verdicts.

@@ -1,0 +1,11 @@
+{
+  "case": "primary",
+  "source_commit": "6c5b6ad6ade6973b1af9aee84d3f35c521db1836",
+  "started_at": "2026-10-21T04:27:00.995Z",
+  "before": "{\"conversationId\":null,\"phase\":\"home\",\"authenticated\":false,\"temporaryChat\":false,\"sidebarOpen\":true,\"navigationPending\":false,\"draft\":{\"text\":\"\",\"revision\":1},\"composer\":{\"action\":\"send\",\"steering\":{\"available\":false,\"pending\":false},\"canSubmit\":false,\"disabled\":false,\"gated\":false,\"offline\":false,\"pendingSubmit\":false,\"uploading\":false},\"model\":{\"thinkingModel\":\"\",\"thinkingEffort\":\"\",\"thinkingHint\":\"\"},\"attachments\":[],\"messageCount\":0,\"messages\":[],\"operation\":null}",
+  "model": "{\"status\":\"ready\",\"mode\":\"chat\",\"selected\":{\"model\":\"default\",\"effort\":\"\"},\"models\":[{\"model\":\"default\",\"title\":\"Default\",\"effort\":\"\",\"effortTitle\":\"Default\"}]}",
+  "dispatch": "{\"status\":\"dispatched\",\"state\":{\"conversationId\":null,\"phase\":\"home\",\"authenticated\":false,\"temporaryChat\":false,\"sidebarOpen\":true,\"navigationPending\":false,\"draft\":{\"text\":\"\",\"revision\":3},\"composer\":{\"action\":\"stop\",\"steering\":{\"available\":false,\"pending\":false},\"canSubmit\":false,\"disabled\":false,\"gated\":false,\"offline\":false,\"pendingSubmit\":false,\"uploading\":false},\"model\":{\"thinkingModel\":\"\",\"thinkingEffort\":\"\",\"thinkingHint\":\"\"},\"attachments\":[],\"messageCount\":0,\"messages\":[],\"operation\":null}}",
+  "status": "SUBMITTED_RESULT_UNAVAILABLE",
+  "recovery_error": "Page.getFrameTree timed out",
+  "observed_conversation_id": "6ad83f1f-a21c-83ea-8597-48ffa4a7fb00"
+}

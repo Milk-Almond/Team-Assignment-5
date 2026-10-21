@@ -47,3 +47,13 @@ The user authorized targeted corrections and a new five-case run. Version 0.1.2-
 Source revision commit: 5e3de7de48da315670383fabcc91c61d61bee47b. All five revised requests were dispatched in fresh contexts with identical generated prompts. Result retrieval then became unavailable; original responses were not captured. Revised acceptance remains pending, not failed or passed by inference. See records/observed_tests/retest_0_1_2.
 
 The current active candidate is 0.1.2-team; prior version and readiness statements above describe earlier states. No new team vote or classroom completion is asserted.
+
+## I. Observed verification completed — 0.1.3-team
+
+The new completed 0.1.2 five-case run passed structure in 5/5 but exposed catalytic-grade and evidence-cutoff drift in the clinical contrast. Preserved under records/observed_tests/retest_0_1_2_completed/. A disclosed common-dossier ledger addresses that calibration ambiguity in 0.1.3-team, source commit 6c5b6ad6ade6973b1af9aee84d3f35c521db1836, committed before execution.
+
+Five completed 0.1.3 cases pass strict structure and the documented semantic review. Two unreadable original attempts and separate completed replacements remain in runtime metadata. Raw replies are unedited. Category, general boundary, baseline, six grade labels, confidence interpretation and cutoff stay stable across defined-technology contrasts; local management actions change appropriately. Undefined technology produces abstention.
+
+Working judgment: Provisional Breakthrough, moderate qualitative general confidence; low confidence in 10–20-year predictions. Strongest contrary case: the narrow dossier establishes neither tenfold advantage against the specified comparator nor durable multi-tier dissolution or irreversibility. Higher classification remains a conditional hypothesis.
+
+Technical regression verification is complete for the specified inputs. The calibrated ledger limits what the tests establish; unseen-case reliability, original chapter alignment and final team acceptance remain separate review items. This entry records user-authorized maintenance and observed evidence, not a new human vote or signature. No Brightspace posting is claimed.
