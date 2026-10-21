@@ -1,0 +1,111 @@
+{
+  "started_at": "2026-10-21T03:09:45.796Z",
+  "before": {
+    "conversationId": null,
+    "phase": "home",
+    "authenticated": false,
+    "temporaryChat": false,
+    "sidebarOpen": true,
+    "navigationPending": false,
+    "draft": {
+      "text": "",
+      "revision": 1
+    },
+    "composer": {
+      "action": "send",
+      "steering": {
+        "available": false,
+        "pending": false
+      },
+      "canSubmit": false,
+      "disabled": false,
+      "gated": false,
+      "offline": false,
+      "pendingSubmit": false,
+      "uploading": false
+    },
+    "model": {
+      "thinkingModel": "",
+      "thinkingEffort": "",
+      "thinkingHint": ""
+    },
+    "attachments": [],
+    "messageCount": 0,
+    "messages": [],
+    "operation": null
+  },
+  "state": {
+    "conversationId": "6ad82cfd-1c30-83ea-a87a-d5ed796e4ae9",
+    "phase": "conversation",
+    "authenticated": false,
+    "temporaryChat": false,
+    "sidebarOpen": true,
+    "navigationPending": false,
+    "draft": {
+      "text": "",
+      "revision": 3
+    },
+    "composer": {
+      "action": "send",
+      "steering": {
+        "available": false,
+        "pending": false
+      },
+      "canSubmit": false,
+      "disabled": false,
+      "gated": false,
+      "offline": false,
+      "pendingSubmit": false,
+      "uploading": false
+    },
+    "model": {
+      "thinkingModel": "",
+      "thinkingEffort": "",
+      "thinkingHint": ""
+    },
+    "attachments": [],
+    "messageCount": 2,
+    "messages": [
+      {
+        "id": "9b38da72-78ae-4a35-8bd6-497a76c79d25",
+        "key": "[\"9b38da72-78ae-4a35-8bd6-497a76c79d25\",\"user\"]",
+        "role": "user",
+        "streaming": false,
+        "complete": true
+      },
+      {
+        "id": "90c61379-662e-4bc3-b4f9-e6981b8d55db",
+        "key": "[\"9b38da72-78ae-4a35-8bd6-497a76c79d25\",\"assistant\"]",
+        "role": "assistant",
+        "streaming": false,
+        "complete": true
+      }
+    ],
+    "operation": {
+      "id": "8f636357-aa17-41f8-b33b-ff56afde4edc",
+      "conversationId": "6ad82cfd-1c30-83ea-a87a-d5ed796e4ae9",
+      "presentation": "pending",
+      "terminal": "settled",
+      "stop": "idle",
+      "outcome": "complete"
+    }
+  },
+  "completed_at": "2026-10-21T03:12:53.279Z",
+  "url": "https://chatgpt.com/uc/6ad82cfd-1c30-83ea-a87a-d5ed796e4ae9",
+  "model_observation": {
+    "status": "ready",
+    "mode": "chat",
+    "selected": {
+      "model": "default",
+      "effort": ""
+    },
+    "models": [
+      {
+        "model": "default",
+        "title": "Default",
+        "effort": "",
+        "effortTitle": "Default"
+      }
+    ]
+  }
+}

@@ -15,3 +15,8 @@ Anti-hype handoff: significance may raise monitoring and bounded learning priori
 Yulia's completed candidate is included in the updated comparison with its later, team-derived lineage. Attach source-reported individual raw tests and actual deterministic check outputs separately. Do not relabel worked examples as observed team-agent runs.
 
 The report supplies collective sign-off, not individual signatures, approval timestamp, attendance or workshop timing. Those details remain unrecorded. Fresh-session team replay, original chapter alignment, named source review, canonical ZIP comparison and Brightspace submission remain open. Reopen the classification for changed evidence, a failed replay, or corrected course thresholds.
+
+
+## Live test evidence added
+
+Five actual runs of 0.1.1-team are appended in records/observed_tests/live_20261020. Tests found output-format and abstention failures plus scope/adaptation concerns. This evidence does not change the team's substantive classification or manufacture new consensus. No instruction revision is applied; proposed corrections and retest conditions are documented separately.

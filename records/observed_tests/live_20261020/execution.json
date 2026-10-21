@@ -1,0 +1,11 @@
+{
+  "source_commit": "4e5dc3d45ff3123ec532cd14bb6217e8917f6501",
+  "records_parent_commit": "be50ba6329430f923f2ae0321c1f8756459c5367",
+  "agent_version": "0.1.1-team",
+  "fresh_conversations": 5,
+  "model_replies_completed": 5,
+  "verification_command": "python records/observed_tests/live_20261020/verify_live.py",
+  "verification_exit_code": 1,
+  "exit_meaning": "Observed strict-schema failures; replies were not repaired.",
+  "runtime": "ChatGPT web; signed out; Default model; underlying model ID not exposed"
+}

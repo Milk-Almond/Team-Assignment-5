@@ -33,3 +33,8 @@ Version 0.1.1-team reconciles records and metadata without changing the analytic
 Yulia's completed consulting candidate is now documented, with its post-synthesis methodological lineage. See CANDIDATE_COMPARISON.md.
 
 Actual execution results are in records/observed_tests/local_checks.txt. Source-reported individual ChatGPT raw replies, prompts, cases and failure/retest records are attached under records/observed_tests/inherited_quantum/. These support traceability of an inherited design lesson; they do not test the team LLM classifier. Team fresh-session replay is still required. Historical team worked responses remain unchanged at 0.1-proposed.
+
+
+## G Completed live replay
+
+Five separate fresh-conversation runs of version 0.1.1-team are preserved in records/observed_tests/live_20261020/. All prompts match the generated repository packets. Strict schema passed one case and failed four for extra fields. The insufficient-evidence case assigned an unsupported default Incremental category instead of abstaining. Broad labels stayed qualified in the other cases, while general-scope drift and weak posture adaptation remain limitations. The earlier pending-replay statements are historical; this run is complete with failures. Active instructions and team classification remain unchanged; corrections require a versioned revision and new runs.

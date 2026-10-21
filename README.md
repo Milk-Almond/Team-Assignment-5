@@ -24,6 +24,6 @@ python tools/validate_response.py path/to/saved_response.json
 
 Paste the generated prompt into a fresh ChatGPT conversation and save the unedited reply under a new filename. Repeat posture, application, hype and insufficient-evidence cases with the fixed general dossier. Record model/date/reviewer and inspect meaning and sources as well as JSON shape.
 
-The five existing team response files are historical assistant-authored worked examples for version 0.1-proposed. They are preserved unchanged. Attached quantum raw replies are inherited individual-agent runs, not runs of this team agent. Fresh-session team-agent replay remains open; see the test log.
+The five existing team response files are historical assistant-authored worked examples for version 0.1-proposed. They are preserved unchanged. Attached quantum raw replies are inherited individual-agent runs, not runs of this team agent. A five-case live replay is now recorded in [test results](records/observed_tests/live_20261020/README.md). It found format and abstention failures; correction/retest remains open.
 
 The frozen core/tools are unchanged. Canonical Brightspace ZIP comparison, named course/source verification, workshop timing details and Brightspace submission are not certified by this update.
