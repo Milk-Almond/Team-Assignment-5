@@ -1,0 +1,27 @@
+UTC execution: 2026-10-21T03:55:48.256293+00:00
+Model replies: unavailable; no model result is assessed by this script.
+FROZEN CORE INTACT
+primary PREPARED_PROMPT_MATCH 5636efab3318d146e24f13c1711501cc2409ede9ba89dc55d2e7691d67c0812f
+primary BASELINE_STRICT_VALIDATOR_EXIT 1
+STRICT VALIDATION FAILED
+- $: unexpected $schema
+- $: unexpected title
+posture_contrast PREPARED_PROMPT_MATCH f536d3e5895e04543a0e4012cabdfc303389cb378be0c45e6b987186054af262
+posture_contrast BASELINE_STRICT_VALIDATOR_EXIT 0
+STRICT VALIDATION PASSED
+application_contrast PREPARED_PROMPT_MATCH ac3ababc8a58cce8a0e530f35ed2336b37961cd9e89ef0114e84dc088b12d447
+application_contrast BASELINE_STRICT_VALIDATOR_EXIT 1
+STRICT VALIDATION FAILED
+- $: unexpected $schema
+- $: unexpected title
+hype PREPARED_PROMPT_MATCH 67392643270a04e59f1d0c18fbed29812216d63408e522dd284de842b6270946
+hype BASELINE_STRICT_VALIDATOR_EXIT 1
+STRICT VALIDATION FAILED
+- $: unexpected $schema
+- $: unexpected title
+insufficient PREPARED_PROMPT_MATCH dd1e77223217ead01243dcbb5624c8c51363eb9420d7a8182d1b4f57b054e0a1
+insufficient BASELINE_STRICT_VALIDATOR_EXIT 1
+STRICT VALIDATION FAILED
+- $: unexpected $schema
+- $: unexpected title
+PASS preflight and baseline-validator regression checks. Revised model acceptance remains pending.

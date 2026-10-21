@@ -1,3 +1,3 @@
 0.1.2-team
-Correct output-instance keys, abstention precedence, general-scope isolation and posture evaluation stages.
-Preserve all earlier outputs; runtime retest recorded separately.
+Candidate: corrections implemented; five live requests submitted, results unavailable due to browser-runtime timeout.
+Do not mark accepted or submission-ready until original revised replies are recovered and checked.

@@ -46,3 +46,12 @@ All five frozen prompts were actually submitted in separate fresh conversations 
 Strict schema: 1/5 passes; primary, hospital, hype and insufficient cases emit forbidden $schema/title fields. The unchanged frozen basic validator passes all five, exposing its extra-field blind spot. Insufficient evidence: FAIL, because the model defaults to Incremental rather than abstaining. General label remains qualified Provisional Breakthrough in the other four cases; autonomous hospital sending and promotional immediate rollout are rejected. General scope/baseline drift and weak posture adaptation remain review issues.
 
 This closes the missing-live-output item for this five-case run, not the correction/retest item. The active agent was not modified. See semantic_review.json and NEXT_REVISION.md. Earlier NOT RUN/BLOCKED entries describe the earlier attempt and are preserved as history.
+
+
+## Revised run 0.1.2 — results recovery blocked
+
+Source commit 5e3de7de48da315670383fabcc91c61d61bee47b contains corrections based on the preserved 0.1.1 failures. Frozen-core check and five prompt byte-identity checks passed. All five revised requests were submitted once in separate fresh conversations.
+
+Original replies could not be retrieved. No revised reply is available, so strict schema and behavioral outcomes are NOT ASSESSED. See records/observed_tests/retest_0_1_2 for prompts, observed conversation IDs, dispatch facts and execution metadata. Do not relabel unavailable outputs as either model failures or successes.
+
+The new strict validator correctly reproduces the baseline split: four extra-field failures and one schema pass. This confirms validator behavior, not effectiveness of the revised model instructions. The active candidate remains pending recovery and acceptance.

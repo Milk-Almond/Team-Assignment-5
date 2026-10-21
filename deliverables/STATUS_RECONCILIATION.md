@@ -16,3 +16,8 @@ Actual test attachments comprise newly executed deterministic checks and inherit
 ## Subsequent test status
 
 Five live team-agent cases are now recorded in records/observed_tests/live_20261020. The earlier statement that replay was missing is superseded by the completed run. Results include four strict-schema failures and an insufficient-evidence abstention failure. The prior Word report remains a historical narrative and should be read with these current test results. No successful correction/retest or new team sign-off is implied.
+
+
+## Maintenance candidate 0.1.2-team
+
+The earlier narrative predates the targeted corrections. Current instructions correct formatting, sufficiency-first abstention and context separation. Five revised model requests were submitted; original responses remain unavailable. The candidate has not passed acceptance. Read records/observed_tests/retest_0_1_2 before presenting a current completion claim. No Brightspace posting is confirmed.

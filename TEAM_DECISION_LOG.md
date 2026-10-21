@@ -20,3 +20,10 @@ The report supplies collective sign-off, not individual signatures, approval tim
 ## Live test evidence added
 
 Five actual runs of 0.1.1-team are appended in records/observed_tests/live_20261020. Tests found output-format and abstention failures plus scope/adaptation concerns. This evidence does not change the team's substantive classification or manufacture new consensus. No instruction revision is applied; proposed corrections and retest conditions are documented separately.
+
+
+## Version 0.1.2 maintenance and retest
+
+The user authorized corrections, real retesting and eventual integration. Preserve the underlying classification and strongest dissent. Correct response-instance formatting, give sufficiency/abstention precedence, isolate technology-wide scope and clarify conservative offline evaluation; preserve frozen files.
+
+The revision was committed before testing (5e3de7de48da315670383fabcc91c61d61bee47b). Five requests were dispatched, but original replies could not be retrieved. Do not infer acceptance from submission. Integration remains conditional on recovered raw replies, strict-schema checks and semantic review. No new human team consensus is fabricated.

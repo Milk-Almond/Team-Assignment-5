@@ -1,7 +1,9 @@
 # Team agent inventory
 
-| Specialist | Active version | Status | Handoff |
+| Specialist | Candidate | Status | Integration |
 |---|---|---|---|
-| SubAgent 3 Promethean Classification | 0.1.1-team | Team sign-off reported in the user-provided submission report; deterministic checks and inherited test evidence attached; five live cases completed with format/abstention failures; correction and retest open | Frozen input/output; significance, opposing evidence, uncertainty and triggers |
+| SubAgent 3 Promethean Classification | 0.1.2-team | Targeted corrections implemented; revised requests submitted; original reply recovery blocked | Pending strict and semantic retest acceptance |
 
-Package approval and runtime validation are separate. No status is asserted for the other six specialists. The commit containing this update is the immutable package identifier. Historical worked examples retain version 0.1-proposed.
+Completed baseline: 0.1.1-team, five actual cases with four strict-schema failures and one abstention failure. Those failures are preserved.
+
+The reported team sign-off concerns the earlier synthesis. Current maintenance is user-authorized; no new workshop vote, individual signature or successful model retest is inferred. No status is asserted for the other six specialists.
