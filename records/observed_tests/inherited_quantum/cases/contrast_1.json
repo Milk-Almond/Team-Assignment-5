@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Engineered quantum entanglement: generation, distribution and verification of entangled states as a usable resource",
+  "intended_application": "Run a research pilot distributing verified entanglement and testing teleportation protocols across an existing metropolitan fiber link.",
+  "organization": "Hypothetical university quantum-network laboratory",
+  "industry_sector": "University research and quantum networking",
+  "business_need": "Learn whether a two-node research link can maintain usable entanglement under field conditions and support reproducible protocol experiments.",
+  "users_stakeholders": "Researchers, students, network operations, grant reviewers and fiber partners",
+  "adoption_posture": "Experimentally aggressive with staged, reversible research milestones",
+  "capabilities_constraints": "Has quantum optics staff, photon detectors and access to a metropolitan dark-fiber segment; has no verified repeater or scalable production network.",
+  "risk_consequence_context": "A controlled research pilot is reversible, but equipment cost, fiber stability, reproducibility and safety procedures matter.",
+  "management_question": "Over two years, should the laboratory run a bounded two-node field pilot or claim readiness for a citywide quantum internet?",
+  "time_horizon": "2 years",
+  "additional_context": "Hypothetical organization. The same general technology classification must apply here as in the financial case. A cited 14.4 km demonstration is precedent, not a result achieved by this lab."
+}

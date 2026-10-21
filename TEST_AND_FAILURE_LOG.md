@@ -21,3 +21,12 @@ Additional inherited failure: Shuoying’s records/12_quantum_citation_failure.m
 ## Required human replay
 
 Run all generated prompts with the same general dossier, preserve raw outputs, inspect sources and meaning, and add reviewer/date/model details. If labels differ under posture alone, inspect evidence drift before blaming context. Preserve failed responses unchanged and increment the version when revising instructions.
+
+
+## Attached observed evidence — 0.1.1-team
+
+See records/observed_tests/README.md and local_checks.txt. The new log is actual deterministic execution output for frozen files, prompt construction, schema checks and saved-case invariants. Team worked responses are preserved unchanged; their authorship is not upgraded by passing a validator.
+
+Three source-reported fresh individual ChatGPT replies from Shuoying's quantum v0.4 candidate, including prompts, cases, paired JSON and citation-failure/retest records, are attached separately. They are inherited observations, not a replay of this team classifier and not evidence for LLM significance.
+
+No fresh-session team-agent reply has been supplied or executed by this update. The available tools provide repository/file execution, not a separate ChatGPT model runtime. Preserve that gap. The next replay should run primary, posture, application, hype and insufficient cases; record model/date/session/reviewer, raw paths, semantic verdict, source review and failures. A general classification may remain semantically stable without identical prose.

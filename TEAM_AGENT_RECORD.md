@@ -2,15 +2,15 @@
 
 ## A Agent and version
 
-Team SubAgent 3, Promethean Classification, version 0.1-proposed. Prepared 2026-10-20 for MASY1-GC 1800. Destination: https://github.com/Milk-Almond/Team-Assignment-5. Source snapshots are pinned in records/source_repositories.json. This is a reviewable AI-assisted proposal; team approval, reviewer names and workshop timing are pending.
+Team SubAgent 3, Promethean Classification, version 0.1.1-team. Prepared 2026-10-20 for MASY1-GC 1800. Destination: https://github.com/Milk-Almond/Team-Assignment-5. Source snapshots are pinned in records/source_repositories.json. Team sign-off is reported in the later user-provided submission report at commit 98022f0. Approval covers the synthesis as a decision-support prototype. Individual reviewer names and workshop timing are not recorded.
 
 ## B Purpose and context
 
 Governing question: What evidence justifies incremental, breakthrough or potentially civilization-changing significance, and how should the system resist hype? The shared case is deployed LLM text assistance for human-approved replies in a hypothetical retailer. The horizon is an eight-week evaluation and 10–20 years for broad significance. A posture-only contrast isolates risk appetite; a hospital contrast changes application and consequences. No real organizational performance is asserted.
 
-## C Proposed finding and dissent
+## C Recorded finding and dissent
 
-On the limited shared empirical dossier, use Provisional Breakthrough, with Potential Promethean retained as an unresolved prospective hypothesis. This is a proposed synthesis judgment, not a team vote. A support-assistance study supports meaningful capability, but does not establish categorical multi-tier dissolution, tenfold gains or durable societal dependence. The strongest competing view, reflected in Shenghao’s and Alexandra’s candidates, is that flexible cognitive production provides a credible pathway to Potential Promethean change before retrospective irreversibility can be observed. Preserve both positions and ask the team to decide the threshold explicitly.
+On the limited shared empirical dossier, use Provisional Breakthrough, with Potential Promethean retained as an unresolved prospective hypothesis. This is the synthesis finding recorded in the report that states team sign-off; no vote count is supplied. A support-assistance study supports meaningful capability, but does not establish categorical multi-tier dissolution, tenfold gains or durable societal dependence. The strongest competing view, reflected in Shenghao’s and Alexandra’s candidates, is that flexible cognitive production provides a credible pathway to Potential Promethean change before retrospective irreversibility can be observed. Preserve both positions. Exact chapter alignment and the prospective threshold remain verification limitations.
 
 The local retail application is a proposed workflow improvement. A human-reviewed pilot may be worth evaluating after readiness, quality and privacy gates; a conservative posture favors offline work first. Clinical autonomy is deferred because relevant safety evidence is absent. Long-term importance can raise learning priority but cannot authorize immediate adoption.
 
@@ -22,6 +22,14 @@ Five shared-case worked responses were authored during this synthesis and valida
 
 ## E Judgment and final system handoff
 
-Ready as a proposed significance specialist for team review. Not yet a team-approved agent or deployment decision-maker. Preserve classification, uncertainty, strongest contrary evidence and monitoring triggers for the final MoE. Adoption and readiness specialists must assess local value and capacity; a human owns consequential decisions. If evidence is missing, return an explicit qualification or abstention within the frozen schema.
+Team sign-off is reported for this significance specialist as a bounded decision-support prototype. It is not a deployment decision-maker. Preserve classification, uncertainty, strongest contrary evidence and monitoring triggers for the final MoE. Adoption and readiness specialists must assess local value and capacity; a human owns consequential decisions. If evidence is missing, return an explicit qualification or abstention within the frozen schema.
 
-AI performed repository inspection, comparison, drafting, prompt construction and local validation. Named human source verification, agreement on the classification threshold, actual workshop contributions and team approval cannot be inferred and remain pending. No Brightspace submission is claimed.
+AI performed repository inspection, comparison, drafting, prompt construction and local validation. Collective team sign-off is recorded in the uploaded report. Named human source verification, exact chapter/threshold alignment and actual workshop contributions/timing remain unverified. No Brightspace submission is claimed.
+
+## F Reconciled package and observed evidence
+
+Version 0.1.1-team reconciles records and metadata without changing the analytical decision rules. The authoritative narrative is deliverables/Team Lab 5 Milk Almonds For Upload.docx with deliverables/STATUS_RECONCILIATION.md. The older Word record is superseded.
+
+Yulia's completed consulting candidate is now documented, with its post-synthesis methodological lineage. See CANDIDATE_COMPARISON.md.
+
+Actual execution results are in records/observed_tests/local_checks.txt. Source-reported individual ChatGPT raw replies, prompts, cases and failure/retest records are attached under records/observed_tests/inherited_quantum/. These support traceability of an inherited design lesson; they do not test the team LLM classifier. Team fresh-session replay is still required. Historical team worked responses remain unchanged at 0.1-proposed.

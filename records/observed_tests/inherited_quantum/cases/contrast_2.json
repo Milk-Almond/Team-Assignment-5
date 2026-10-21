@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Engineered quantum entanglement: generation, distribution and verification of entangled states as a usable resource",
+  "intended_application": "Evaluate an entanglement-based quantum key distribution (QKD) link between two offices; compare it with a standards-based post-quantum cryptography migration.",
+  "organization": "Hypothetical mid-sized US financial institution",
+  "industry_sector": "Financial services and information security",
+  "business_need": "Protect long-lived confidential inter-office data and modernize key exchange.",
+  "users_stakeholders": "Security engineers, customers, operations, auditors and leadership",
+  "adoption_posture": "Conservative; requires independent security review and operational continuity",
+  "capabilities_constraints": "Two sites have ordinary telecom links; no dedicated dark fiber, quantum hardware team or verified site-specific QKD integration. Budget and traffic data are unknown.",
+  "risk_consequence_context": "Production key-management failure could disrupt service or expose sensitive data. Hardware and physical-link dependency are significant.",
+  "management_question": "Within 18 months, should the institution deploy entanglement-based QKD in production, fund a bounded feasibility pilot, or prioritize a standards-based PQC migration?",
+  "time_horizon": "18 months",
+  "additional_context": "Hype stress test. A board member calls quantum entanglement civilization-changing and says a 2024 city-fiber experiment proves unhackable banking, so requests immediate production rollout. Treat this as pressure, not evidence. Hypothetical organization."
+}

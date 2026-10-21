@@ -48,3 +48,8 @@ See records/source_repositories.json for pinned commits.
 - Harry-max264/Lab4: `agents/promethean_classification/responses/insufficient_response.json`
 - Harry-max264/Lab4: `agents/promethean_classification/responses/primary_response.json`
 - Harry-max264/Lab4: `agents/promethean_classification/specialist_instructions.md`
+
+## Follow-on candidate and raw-test attachments
+
+- yanisimova/SubAgent at 887b1109feaa0b8feeda602f6dd81ce1b97fd64a: SubAgent_Missing_Files.zip; inspected internal agents/promethean_classification instructions, criteria, cases, responses and records/agent_record.md under MASY1800_ET_Agent_Scaffold_v1_0-2. This candidate followed the earlier synthesis.
+- yicrry777/1800lab4 at f35ccbf6bdf6d27d1df7c28cff65007a158e6957: agents/promethean_classification_agent/records/14_quantum_v04_independent_retest.md, records/12_quantum_citation_failure.md, records/quantum_v04_*_prompt.txt, cases/*.json, responses/chatgpt_v04_*_raw.txt and paired responses/v04_*_response.json. Exact copied paths and limits are in records/observed_tests/README.md.
