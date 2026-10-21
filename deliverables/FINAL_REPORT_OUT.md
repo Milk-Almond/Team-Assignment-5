@@ -12,4 +12,4 @@
 
 **Rule for final MoE integration:** broad significance may increase monitoring and bounded learning priority. It never authorizes spending, rollout, compliance or autonomous consequential action. Local value, feasible complements, readiness, governance and an accountable human decision remain separate gates.
 
-**Handoff status:** technical regression verification complete; ready for final team review with these qualifications. Existing team records remain historical. No new team vote, individual signature, workshop attendance or Brightspace submission is claimed.
+**Handoff status:** technical regression verification complete; the final Word report records team approval of 0.1.3-team with these qualifications. See [the final report](Team_Lab_5_Milk_Almonds_Final.docx). No additional team vote, individual signature, workshop attendance or Brightspace submission is inferred.
