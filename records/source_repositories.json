@@ -5,7 +5,10 @@
   },
   {
     "repository": "yanisimova/SubAgent",
-    "commit": "99bd675b1b2e3ac26c81d98339bf71069b940222"
+    "commit": "887b1109feaa0b8feeda602f6dd81ce1b97fd64a",
+    "original_scaffold_commit": "99bd675b1b2e3ac26c81d98339bf71069b940222",
+    "candidate_archive": "SubAgent_Missing_Files.zip",
+    "lineage_note": "Completed after and derived from earlier team synthesis; not independent pre-work."
   },
   {
     "repository": "sawulya/Lab-4---SubAgent-3-Promethean",

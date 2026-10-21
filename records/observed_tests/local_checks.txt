@@ -1,0 +1,40 @@
+UTC execution time: 2026-10-21T00:56:12.718662+00:00
+Package: 0.1.1-team; original repository snapshot: 98022f0
+Scope: saved artifacts and deterministic checks; no fresh model execution.
+$ python tools/check_frozen_core.py
+FROZEN CORE INTACT
+$ python tools/build_prompt.py --agent agents/team_promethean --case agents/team_promethean/cases/primary.json
+<repository>/work/team_promethean_primary_prompt.txt
+$ python tools/validate_response.py agents/team_promethean/responses/primary_response.json
+VALIDATION PASSED
+PASS frozen-schema assertions: primary
+$ python tools/build_prompt.py --agent agents/team_promethean --case agents/team_promethean/cases/posture_contrast.json
+<repository>/work/team_promethean_posture_contrast_prompt.txt
+$ python tools/validate_response.py agents/team_promethean/responses/posture_contrast_response.json
+VALIDATION PASSED
+PASS frozen-schema assertions: posture_contrast
+$ python tools/build_prompt.py --agent agents/team_promethean --case agents/team_promethean/cases/application_contrast.json
+<repository>/work/team_promethean_application_contrast_prompt.txt
+$ python tools/validate_response.py agents/team_promethean/responses/application_contrast_response.json
+VALIDATION PASSED
+PASS frozen-schema assertions: application_contrast
+$ python tools/build_prompt.py --agent agents/team_promethean --case agents/team_promethean/cases/hype.json
+<repository>/work/team_promethean_hype_prompt.txt
+$ python tools/validate_response.py agents/team_promethean/responses/hype_response.json
+VALIDATION PASSED
+PASS frozen-schema assertions: hype
+$ python tools/build_prompt.py --agent agents/team_promethean --case agents/team_promethean/cases/insufficient.json
+<repository>/work/team_promethean_insufficient_prompt.txt
+$ python tools/validate_response.py agents/team_promethean/responses/insufficient_response.json
+VALIDATION PASSED
+PASS frozen-schema assertions: insufficient
+PASS posture intake changes adoption_posture only
+PASS saved general findings identical across primary/posture/application/hype
+PASS saved local recommendations differ and insufficient case abstains
+PASS inherited raw/JSON byte identity and schema: primary
+raw_sha256 5c9542a7eac211abb6e7b040e285edba65b7b83a38dedc0155e7177bf6c71932
+PASS inherited raw/JSON byte identity and schema: contrast_1
+raw_sha256 a5f33d1ca9912a0803521a2d1483809249438401d6a03d4eac011ae3c1065efb
+PASS inherited raw/JSON byte identity and schema: contrast_2
+raw_sha256 130c58901e6bcb3a30cfecee1b5cb0e87b53d8577b9d45bd25692b25e5ec3abb
+PASS all artifact checks. Fresh-session team-agent replay remains OPEN.

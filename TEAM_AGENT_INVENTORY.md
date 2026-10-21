@@ -1,7 +1,7 @@
 # Team agent inventory
 
-| Specialist | Version | State | Handoff |
+| Specialist | Active version | Status | Handoff |
 |---|---|---|---|
-| SubAgent 3 Promethean Classification | 0.1-proposed | Implemented proposal; local checks complete; team approval pending | Frozen input/output; significance and uncertainty only |
+| SubAgent 3 Promethean Classification | 0.1.1-team | Team sign-off reported in the user-provided submission report; deterministic checks and inherited test evidence attached; fresh-session team replay open | Frozen input/output; significance, opposing evidence, uncertainty and triggers |
 
-No status is asserted for the other six specialists. Use the GitHub commit containing this version as the immutable package identifier; see records/package_sha256.txt for file hashes.
+Package approval and runtime validation are separate. No status is asserted for the other six specialists. The commit containing this update is the immutable package identifier. Historical worked examples retain version 0.1-proposed.
