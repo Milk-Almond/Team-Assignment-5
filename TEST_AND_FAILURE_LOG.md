@@ -30,3 +30,10 @@ See records/observed_tests/README.md and local_checks.txt. The new log is actual
 Three source-reported fresh individual ChatGPT replies from Shuoying's quantum v0.4 candidate, including prompts, cases, paired JSON and citation-failure/retest records, are attached separately. They are inherited observations, not a replay of this team classifier and not evidence for LLM significance.
 
 No fresh-session team-agent reply has been supplied or executed by this update. The available tools provide repository/file execution, not a separate ChatGPT model runtime. Preserve that gap. The next replay should run primary, posture, application, hype and insufficient cases; record model/date/session/reviewer, raw paths, semantic verdict, source review and failures. A general classification may remain semantically stable without identical prose.
+
+
+## Actual verification attempt — October 20, 2026, 22:58 ET
+
+See records/observed_tests/run_20261020_2258/README.md. Current merged snapshot 4e5dc3d was retrieved anew and checked: all artifact checks passed and all 61 manifest files matched. Original arXiv and NIST claims were checked with explicit scope limits.
+
+A real ChatGPT web submission was attempted, but automatic approval review blocked it before dispatch because explicit destination/data approval was required. Captured browser state shows zero messages and no conversation ID; the exact unsent primary draft matches the repository-generated prompt. This is a blocked execution attempt, not a model test result. All five fresh model cases remain NOT RUN. No historical example was relabeled and no commit or failure was overwritten.

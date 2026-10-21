@@ -1,0 +1,8 @@
+Observed tool result for attempted ChatGPT submit_conversation_message:
+Browser Use rejected this action due to browser security policy.
+Auto-review denied this action; this was not a manual user rejection.
+The WebMCP approval gate did not grant access for https://chatgpt.com / submit_conversation_message.
+
+Reason: This sends substantial repository-derived instructions and evidence to an external ChatGPT conversation; the user authorized real testing but did not explicitly authorize disclosure of this retrieved repository content to that destination.
+
+Recorded outcome: blocked before dispatch; no model response.
